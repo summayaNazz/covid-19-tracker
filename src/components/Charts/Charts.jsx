@@ -59,6 +59,6 @@ const barChart=(
     )
 }
 
-export default Charts
+export default Charts;
 
  
