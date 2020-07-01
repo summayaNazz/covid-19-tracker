@@ -32,6 +32,7 @@ this.setState({data,country:country})
             <Cards data={data} country={country}/>
             <CountryPicker handleChangeCountry={this.handleChangeCountry}/> 
             <Charts data={data} country={country}/>
+            <h4>Covid-19 Calculating App by <b><i>SUMMAYA NAZZ</i></b></h4>
             </div>
         )
     }
