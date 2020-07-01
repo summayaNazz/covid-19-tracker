@@ -28,7 +28,7 @@ this.setState({data,country:country})
         const {data,country}=this.state
         return (
             <div className={style.container}>
-            <img src={caronaImage} className={style.image} alt='carona image'/>
+            <img src={caronaImage} className={style.image} alt='carona'/>
             <Cards data={data} country={country}/>
             <CountryPicker handleChangeCountry={this.handleChangeCountry}/> 
             <Charts data={data} country={country}/>
